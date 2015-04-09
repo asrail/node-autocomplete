@@ -1,10 +1,5 @@
 #!/bin/sh
 
-clean() {
-  killall -KILL node &> /dev/null
-}
-
-clean
 echo
 
 files=test/test.*.js
